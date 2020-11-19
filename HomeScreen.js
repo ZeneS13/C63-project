@@ -61,7 +61,7 @@ export default class App extends React.Component {
 
         <Image
           style={{ width: 324, height: 170, marginLeft: 0 }}
-          source={require('../assets/letters.jpg')}
+          source={require('./assets/letters.jpg')}
         />
 
         <TextInput
@@ -87,7 +87,7 @@ export default class App extends React.Component {
           }}>
           <Image
             style={{ width: 33, height: 33, marginLeft: 283, marginTop: -33 }}
-            source={require('../assets/search.png')}
+            source={require('./assets/search.png')}
           />
         </TouchableOpacity>
 
