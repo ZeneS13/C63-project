@@ -14,7 +14,7 @@ export default class App extends React.Component {
       definition: '',
     };
   }
-
+   
   getWord = (word) => {
     var searchKeyword = word.toLowerCase();
     var url =
